@@ -1,0 +1,50 @@
+h2 {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-heading {
+    color: grey;
+    font-size: 14px;
+}
+
+button{
+   background-color: green;
+   border: none;
+   height: 40px;
+   width: 200px;
+   border-radius: 8px;
+}
+
+button a{
+color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+input[type="checkbox"]{
+    width: 12px;
+    height: 12px;
+}
+
+form{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 8px 8px 8px 8px rgb(234, 231, 231);
+}
+label{
+    margin-bottom: 10px;
+}

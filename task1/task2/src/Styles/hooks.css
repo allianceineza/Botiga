@@ -1,0 +1,136 @@
+/* Overlay Styling */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly darker background */
+}
+
+/* Form Container */
+
+
+/* Form Styling */
+.form {
+    background-color: white;
+    padding: 20px;
+    width: 30%; /* Make sure form width is responsive */
+    height: 80%;
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center;
+    border-radius: 8px; /* Add rounded corners */
+}
+
+/* Input Styling */
+.input {
+    width: 100%; /* Full width of container */
+    max-width: 300px; /* Max width for input fields */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button Hover Effect */
+.button:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+/* Header inside Form */
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; /* Add space below header */
+}
+
+/* Model (Not clear usage, assuming you meant modal) */
+.model {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+     /* Ensure model takes full width */
+}
+
+/* Content area, center and cover the entire viewport */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .formcontainer {
+        width: 90%; /* Make form take up more width on smaller screens */
+        padding: 30px; /* Adjust padding on smaller screens */
+    }
+
+    .input {
+        max-width: 100%; /* Inputs take full width on small screens */
+    }
+
+    .form {
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formcontainer {
+        width: 95%; /* Allow even more width on mobile */
+        padding: 20px; /* Reduce padding further for very small screens */
+    }
+
+    .input {
+        max-width: 100%;
+    }
+
+    .button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .head {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+    padding-top: none;
+    padding-bottom: 20px;
+}
+.checkbox{
+    width: 10px;
+    height:10px;
+}
+.forget span{
+    padding-left:35px ;
+   
+}
+.signin-button{
+    padding-bottom: 20px;
+    background-color: rgb(80, 188, 224);
+    width: 290px;
+
+
+}

@@ -1,0 +1,105 @@
+.blog-title{
+    text-align:center;
+    margin-top:10px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+
+.blog-card{
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    padding-top: 40px;
+
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Media Queries for Responsiveness */
+
+/* iPhone & Android (portrait) */
+@media only screen and (max-width: 600px) {
+    .blog-container {
+        grid-template-columns: 1fr; /* Stack blog cards */
+        margin-left: 10px; /* Adjust margin */
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .blog-card {
+        padding-top: 20px; /* Adjust padding */
+    }
+
+    img {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+}
+
+/* iPad (portrait) and smaller tablets */
+@media only screen and (max-width: 768px) {
+    .blog-container {
+        grid-template-columns: 1fr 1fr; /* 2 columns for smaller tablets */
+        margin-left: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog-card {
+        padding-top: 30px;
+    }
+
+    img {
+        height: 180px; /* Adjust image height */
+    }
+}
+
+/* iPad (landscape) and larger tablets */
+@media only screen and (max-width: 1024px) {
+    .blog-container {
+        grid-template-columns: 1fr 1fr 1fr; /* Maintain 3 columns */
+        margin-left: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .blog-card {
+        padding-top: 35px;
+    }
+
+    img {
+        height: 200px; /* Maintain original image height */
+    }
+}
+
+/* Larger Desktop and above */
+@media only screen and (min-width: 1025px) {
+    .blog-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on larger screens */
+        margin-left: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .blog-card {
+        padding-top: 40px;
+    }
+
+    img {
+        height: 200px; /* Original height for desktop screens */
+    }
+}

@@ -1,0 +1,140 @@
+.shop2{
+    display: flex;
+}
+.links{
+    display: block;
+    width: 30%;
+}
+.links a{
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+}
+.showing{
+    display:block;
+    /* width: 30%; */
+
+}
+.showing p{
+    justify-content: space-between;
+    margin-right: 180px;
+}
+.showing button{
+    background-color: white;
+    color: black;
+    /* border: 2px;
+    height: 90px; */
+
+
+}
+.results{
+    display: flex;
+    align-items:left;
+    gap: 0px;
+    border: #ccc;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.shopposts{
+    display: flex;
+}
+.shop1{
+height: fit-content;
+}
+
+.sorting-wrapper{
+    display: flex;
+    gap: 350px;
+    padding-left: 190px;
+    margin-top: 20px;
+}
+.sorting-container{
+    display: flex;
+}
+.new-item img{
+    
+}
+
+.new-arrival{
+    display: flex; 
+    justify-content:space-between;
+    gap: 20px;
+    width: 1200px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 30px;
+    column-count: 3;
+    
+}
+.new-arrival img{
+    width: 350px;
+    height: 300px;
+}
+.new-arrival p{
+    text-align: center;
+    align-items: center;
+    
+}
+   .star{
+    text-align: center;
+    align-items: center;
+    
+
+  } 
+   
+    .allin-one button {
+        position: absolute;
+        top: 30%;
+        left: 40%; 
+        transform: translate(-50%, -50%); 
+        background-color: #6c757d;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+
+ .button:hover {
+    background-color: black;
+    color: white;
+
+ }
+ .buttonb{
+   padding: 20px 20px;
+   color: white;
+   background-color: gray;
+   margin: top;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase; 
+    cursor: pointer;
+ }
+ .heart:hover{
+  
+    color:red;
+ }
+ .color-shop{
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .color-shop p{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+ }
+ .shop-star p{
+padding-top: 18px;
+ }
