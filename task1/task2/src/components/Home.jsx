@@ -4,7 +4,7 @@ import Popular from "./Popular"
 import { CiStar } from "react-icons/ci";
 import Newarrival from "./Newarrival";
 import Vendor from "./Vendor";
-import Follow from "./follow";
+import Follow from "./Follow";
 import Exploreproduct from "./Exploreproduct";
 import { FaCarSide } from "react-icons/fa";
 import { FaExchangeAlt } from "react-icons/fa";
