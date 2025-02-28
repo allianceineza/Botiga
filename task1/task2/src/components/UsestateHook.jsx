@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../Styles/hooks.css';
 import { IoMdClose } from "react-icons/io";
 import Signup from "./Signup";
-import Signin from "./Signin";
+// import Signin from "./Signin";
 import { IoCheckbox } from "react-icons/io5";
 
 const Hooks = ({ closeform}) => {
@@ -26,7 +26,7 @@ const Hooks = ({ closeform}) => {
               <IoMdClose onClick={closeform} className="close" />
             </div>
 
-            <h2>Login to an account</h2>
+            <p>Login to an account</p>
             <label htmlFor="email">Email address*</label>
             <input type="email" placeholder="enter email" className="input" id="email" />
             <label type="password">Password*</label>

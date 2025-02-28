@@ -129,8 +129,11 @@
 }
 .signin-button{
     padding-bottom: 20px;
-    background-color: rgb(80, 188, 224);
+    background-color:  black;
     width: 290px;
-
-
 }
+/* .signup-button{
+    padding-bottom: 20px;
+    background-color:  #5a54f5;
+    width: 290px; 
+} */

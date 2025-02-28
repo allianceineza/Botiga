@@ -66,6 +66,9 @@ function Navbar() {
                     <Link to="/Vendors">Vendors</Link>
                     <a href="/blog">Blog</a>
                     <Link to="/Contact">Contact</Link>
+                    <Link to="/Form">Form</Link>
+                    <Link to="/Contactme">Contactme</Link>
+
                 </div>
                 <div className="contact">
                     <IoCallOutline />

@@ -2,9 +2,9 @@ import React from "react";
 import image30 from '../assets/image/pic30.webp'
 import image31 from '../assets/image/pic31.webp'
 import image32 from '../assets/image/pic32.webp'
-import image33 from '../assets/image/pic33.webp'
-import image34 from '../assets/image/pic34.webp'
-import image35 from '../assets/image/pic35.webp'
+import image8 from '../assets/image/pic8.webp'
+import image9 from '../assets/image/pic9.webp'
+import image10 from '../assets/image/pic10.webp'
 import { FaStar } from "react-icons/fa";
  
 const exploreproduct=[
@@ -31,25 +31,26 @@ const exploreproduct=[
         },
         {
             id: 7,
-            image: image33,
+            image: image8,
             description: "Head set gamer region",
             price: "$22.0-$55.0",
             star: 4,
         },
         {
             id: 8,
-            image: image34,
+            image: image9,
             description: "Head set gamer region",
             price: "$22.0-$55.0",
             star: 4,
         },
         {
             id: 9,
-            image: image35,
+            image: image10,
             description: "Head set gamer region",
             price: "$22.0-$55.0",
             star: 4,
-        },]
+        },
+    ]
         const Exploreproduct=() =>{
             return(
                 <div className="new-arrival">

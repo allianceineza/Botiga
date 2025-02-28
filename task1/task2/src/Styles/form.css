@@ -1,0 +1,11 @@
+.input-f{
+    width: 10rem;
+}
+.containerForm{
+    padding: 5rem;
+}
+.button-form{
+    border-radius: none;
+    background-color: black;
+    width: 100px;
+}

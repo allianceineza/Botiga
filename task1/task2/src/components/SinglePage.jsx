@@ -3,18 +3,37 @@ import "../Styles/allinone.css";
 import { useParams } from "react-router-dom";
 import { Arrival } from "./Newarrival";
 import { FaStar } from "react-icons/fa";
+import { IoCallOutline } from "react-icons/io5";
+import { IoLocationOutline } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
 
-function SinglePage() {
+
+
+function SinglePage({ closeform}) {
   const { id } = useParams();
   const card = Arrival.find((card) => card.id == id);
 
   const [quantity, setQuantity] = useState(1); // Quantity state
 
+   const[singlepage,setSinglepage]=useState(true);
+    const handleModal=()=>{
+   setSinglepage(!singlepage);
+  }
+
   return (
     <div className="allinone-bottle">
+       <form >
+              <div className="overlay">
+                <div className="form">
+                  <div>
+                    <IoMdClose onClick={closeform} className="close" />
+                  </div>
       <div className="allinone-image">
         <img src={card.image} alt={card.cardTitle} />
       </div>
+      {/* <div className="sub-allinone-image">
+      <img src={card.profileImage} alt={card.cardTitle} />
+      <img src={card.image} alt={card.cardTitle} /></div> */}
       <div className="allionone-title">
         <div className="allinone-cardtitile">{card.cardTitle}</div>
         <p>
@@ -61,11 +80,29 @@ function SinglePage() {
       <div className="sku">
         <p>SKU: N/A</p>
         CATEGORIES: <a href="general,sports">general,sports</a><br/>
-       <a href="wish list">wish list</a>
+        <p><div className="heart">❤</div><a href="wish list">wish list</a></p>
       </div>
-
+      
+      <div className="vendordetail">
+      <div key={card.id}>  <img src={card.profileImage} alt={card.cardTitle} /></div>vendor
+        <hr/>
+      
+      <p><IoLocationOutline />address</p>
+      <hr/>
+      <p>Central Park, New York, US</p>
+      <p><IoCallOutline />contact</p>
+      <hr/>
+      <center>
+      <button  className="seeall-productbutton" onClick={handleModal}>see all products</button><br/>
+      become a vendor?<br/>
+      <h7><a href="register now" onclick={handleModal}>Register Now</a></h7></center>
       </div>
+      </div>
+      </div></div>
+      </form>
+      {singlepage && <SinglePage handlemodal={handleModal}/>}
     </div>
+  
   );
 }
 

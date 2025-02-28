@@ -13,7 +13,7 @@ const Signin =({handleModel}) =>
                 <div><IoMdClose onClick={handleModel} className="close"/></div> 
                 <h3>Reset password</h3>
                 <label htmlFor="email">Email address*</label>
-            <input type="email" placeholder="enter email" className="input" id="email" required/>
+            <input type="email" placeholder="enter your email" className="input" id="email" required/>
             <label htmlFor="password">Password*</label>
             <input type="password" placeholder="Enter your password" className="input" id="password" required/>
             <label htmlFor="password"> Confirm Password*</label>

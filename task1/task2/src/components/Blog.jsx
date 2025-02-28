@@ -1,20 +1,23 @@
 import React from "react";
 import '../Styles/blog.css';
-import image1 from '../assets/image/pic5.webp';
-import image2 from '../assets/image/pic6.webp';
-import image3 from '../assets/image/pic7.webp';
+import image40 from '../assets/image/pic40.webp';
+import image41 from '../assets/image/pic41.webp';
+import image42 from '../assets/image/pic42.webp';
+import image43 from '../assets/image/pic43.webp';
+import image44 from '../assets/image/pic44.webp';
+import image35 from '../assets/image/pic35.webp';
 
 
 const blogposts=[
     {
-        image:image1,
+        image:image40,
         date:'July 18, 2021',
         Title:'Sed magna dui, dignissim id felis vitae, consectetur',
         Descrption:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit […]'
     },
    
         {
-            image:image2,
+            image:image41,
             date:'July 18, 2021',
         
             Title:'Sed magna dui, dignissim id felis vitae, consectetur',
@@ -22,7 +25,25 @@ const blogposts=[
         },
     
             {
-                image:image3,
+                image:image41,
+                date:'July 18, 2021',
+                Title:'Sed magna dui, dignissim id felis vitae, consectetur',
+                Descrption:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit […]'
+            },
+            {
+                image:image42,
+                date:'July 18, 2021',
+                Title:'Sed magna dui, dignissim id felis vitae, consectetur',
+                Descrption:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit […]'
+            },
+            {
+                image:image43,
+                date:'July 18, 2021',
+                Title:'Sed magna dui, dignissim id felis vitae, consectetur',
+                Descrption:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit […]'
+            },
+            {
+                image:image35,
                 date:'July 18, 2021',
                 Title:'Sed magna dui, dignissim id felis vitae, consectetur',
                 Descrption:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit […]'

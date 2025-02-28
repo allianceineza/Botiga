@@ -1,0 +1,66 @@
+/* Categories.css */
+
+.categories-page {
+    /* padding: 20px; */
+    font-family: Arial, sans-serif;
+    width: 97%;
+    padding-left: 270px;
+    box-sizing: border-box;
+    margin-top: 150px;
+  }
+  categorylist-table{
+    background-color: white;
+  }
+  
+  .new-category-button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .categories-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .categories-table th, .categories-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .categories-table th {
+    background-color: #f5f5f5;
+  }
+  
+  .visibility-badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .visibility-badge.hidden {
+    background-color: #ddd;
+    color: #555;
+  }
+  
+  .visibility-badge.visible {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  

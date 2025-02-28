@@ -4,6 +4,9 @@ import image9 from '../assets/image/pic9.webp';
 import image10 from '../assets/image/pic10.webp';
 import { FaStar } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
+import '../Styles/home.css';
+import {useForm} from 'react-hook-form';
+import axios from 'axios';
 
 export const Arrival = [
     {
@@ -39,7 +42,7 @@ const Newarrival = () => {
         <>
             <h1 className="popularhead">New Arrival Products</h1>
             <div className="new-arrival">
-                <div className="gallery-arrival">
+                {/* <div className="gallery-arrival"> */}
                     {Arrival.map((post) => (
                         <div key={post.id} className="allin-one">
                             <div className="new-item">
@@ -60,12 +63,19 @@ const Newarrival = () => {
                                 <FaStar style={{ color: "rgb(224, 150, 11)" }} />
                                 <FaStar style={{ color: "rgb(224, 150, 11)" }} />
                                 <FaStar style={{ color: "rgb(202, 202, 201)" }} />
-                                <FaStar style={{ color: "rgb(202, 202, 201)" }} />
-                            </p>
+                                <FaStar style={{ color: "rgb(202, 202, 201)" }} /></p>
+                                <div className="color-selection">
+                                <div className="color-option color-1 selected"></div>
+                                <div className="color-option color-2"></div>
+                                <div className="color-option color-3 disabled"></div>
+                                <div className="color-option color-4 disabled"></div>
+                              </div>
+                            
+                           
                         </div>
                     ))}
                 </div>
-            </div>
+            {/* </div> */}
         </>
     );
 };

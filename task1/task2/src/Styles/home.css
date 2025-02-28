@@ -193,12 +193,12 @@
     padding:none;
 }
 .instagram img{
-    width: 170px;
+    width: 200px;
     height: auto;
 
 }
 .home-card img{
-    width: 170px;
+    width: 200px;
     height: auto;
 }
 .home-card p{
@@ -244,7 +244,7 @@
 }
 
 
-  .new-arrival{
+  /* .new-arrival{
     display: flex; 
     justify-content:space-between;
     gap: 20px;
@@ -255,21 +255,29 @@
     padding-right: 30px;
     
 }
-.new-arrival img{
+.new-item img{
     width: 350px;
     height: 300px;
 }
 .new-arrival p{
-    text-align: center;
-    align-items: center;
+    text-align: left;
+    align-items: left;
     
 }
+.allin-one p{
+    text-align: left;
+    align-items: left;   
+}
    .star{
-    text-align: center;
-    align-items: center;
-    
+    text-align: left;
+    align-items: left;  
 
   } 
+  .color-selection{
+    text-align: center;
+    align-items: center; 
+
+  }
    
     .allin-one button {
         position: absolute;
@@ -298,14 +306,14 @@
    background-color: gray;
    margin: top;
     border: none;
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; /* Rounded corners 
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase; 
     cursor: pointer;
  }
 
- /* Responsive Design */
+ /* Responsive Design 
 @media (max-width: 1024px) {
     .new-arrival {
         justify-content: center;
@@ -335,7 +343,7 @@
         width: 100%;
     }
 }
-
+ */
 
 .vendor{
         display: flex; 
@@ -459,106 +467,7 @@ margin-right: 100px;
     padding-bottom: 20px;
     padding-left: 30px;
   }
-/* .six{
-    /* display: flex;  
-    justify-content: space-between;
-    gap: 20px;
-    padding: 15px 20px;
-}
-.choose{
-    display: flex; 
-    justify-content: space-between;
-    gap: 20px;
-    padding-left: 70px;
-    padding-right: 50px;
-    padding-top: 20px;
-} */
 
-/* 
-    .icon-container { 
-        width: 60px;
-        height: 40px;
-        border: 2px solid black;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-
-    .arrow {
-    
-            /* align-items: right;
-            margin-top: 20px;
-            margin-bottom: 12px; 
-            margin-left: 70px; 
-        width: 10px;
-        height: 2px;
-        background: black;
-        position: absolute;
-    }*/
-
-    /*.arrow::before,
-    .arrow::after {
-        content: "";
-        position: absolute;
-        width: 10px;
-        height: 2px;
-        background: black;
-    }
-
-    /* First arrow pointing right 
-    .arrow:first-child {
-        transform: translateY(-6px);
-    }
-
-    .arrow:first-child::before {
-        transform: rotate(45deg);
-        top: -3px;
-        right: -1px;
-    }
-
-    .arrow:first-child::after {
-        transform: rotate(-45deg);
-        bottom: -3px;
-        right: -1px;
-    }
-
-    /* Second arrow pointing left 
-    .arrow:last-child {
-        transform: translateY(6px);
-    }
-
-    .arrow:last-child::before {
-        transform: rotate(-45deg);
-        top: -3px;
-        left: -1px;
-    }
-
-    .arrow:last-child::after {
-        transform: rotate(45deg);
-        bottom: -3px;
-        left: -1px;
-    } */
-
-
-/* Responsive Design */
-/* @media (max-width: 1024px) {
-    .choose {
-        justify-content: center;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-} */
-
-/* @media (max-width: 768px) {
-    .choose {
-        flex-direction: column;
-        align-items: center;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-} */
 
 
 .storeid{
@@ -592,8 +501,6 @@ margin-right: 100px;
         gap: 10px;
         flex-wrap: wrap;
         margin: none;
-         /* padding-left: 90px;  */
-          /* padding-right: 70px;  */
         margin-left: 10px;
         margin-right: 10px;    
     
@@ -602,8 +509,9 @@ margin-right: 100px;
 
  .new-arrival {
     margin-top: 20px;
-    margin-left: 40px;
-    padding-left: 30px;
+    margin-left: none;
+    padding-left: 10px;
+     
   } 
    .new-arrival h2{
     margin-top: 30px;
@@ -615,22 +523,28 @@ margin-right: 100px;
     align-items: center;
     flex-wrap: wrap;
     /* margin-top: 40px; */
-    padding-right: 30px;
+    padding-right: none;
+    margin-top: 20px;
+    margin-left: none;
+    padding-left: 10px;
   } 
 
   
   .new-item {
     position: relative; 
-    width: 350px;
+    /* width: 350px; */
     margin-bottom: 20px;
-    padding: 30px;
+    padding: none;
+    margin-right: 5px;
+    padding-right:none;
+   
   }
   
   .new-item img {
     display: block;
-    width: 310px;
+    width: 350px;
     border-radius: 8px;
-   
+    gap:30px;
   }
   
   
@@ -676,6 +590,8 @@ margin-right: 100px;
     width: 200px;
     height: 50px;
     margin-bottom: 200px;
+    margin-left: 60px;
+    margin-right: 200px;
   }
   
  
